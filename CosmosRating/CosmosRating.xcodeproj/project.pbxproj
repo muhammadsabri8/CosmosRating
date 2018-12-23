@@ -1,0 +1,726 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1240073993C812BE2807E7AC /* Pods_CosmosRatingTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E1E9B5BF4BAE340FEB60B28F /* Pods_CosmosRatingTests.framework */; };
+		292891BF21CFC28B00D15CDC /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 292891BE21CFC28B00D15CDC /* AppDelegate.swift */; };
+		292891C121CFC28B00D15CDC /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 292891C021CFC28B00D15CDC /* ViewController.swift */; };
+		292891C421CFC28B00D15CDC /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 292891C221CFC28B00D15CDC /* Main.storyboard */; };
+		292891C621CFC28C00D15CDC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 292891C521CFC28C00D15CDC /* Assets.xcassets */; };
+		292891C921CFC28C00D15CDC /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 292891C721CFC28C00D15CDC /* LaunchScreen.storyboard */; };
+		292891D421CFC28C00D15CDC /* CosmosRatingTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 292891D321CFC28C00D15CDC /* CosmosRatingTests.swift */; };
+		292891DF21CFC28C00D15CDC /* CosmosRatingUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 292891DE21CFC28C00D15CDC /* CosmosRatingUITests.swift */; };
+		34D564CE8635DDCEEF84906A /* Pods_CosmosRating.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1A5878D06AAC4FEBCFBB4E36 /* Pods_CosmosRating.framework */; };
+		B4414BD96E5A7DC490221420 /* Pods_CosmosRatingUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D0BF0C793E5F338418E847B2 /* Pods_CosmosRatingUITests.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		292891D021CFC28C00D15CDC /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 292891B321CFC28B00D15CDC /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 292891BA21CFC28B00D15CDC;
+			remoteInfo = CosmosRating;
+		};
+		292891DB21CFC28C00D15CDC /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 292891B321CFC28B00D15CDC /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 292891BA21CFC28B00D15CDC;
+			remoteInfo = CosmosRating;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		1A5878D06AAC4FEBCFBB4E36 /* Pods_CosmosRating.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_CosmosRating.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		1D9BF59C56EFDECA1929CD48 /* Pods-CosmosRatingUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CosmosRatingUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-CosmosRatingUITests/Pods-CosmosRatingUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		292891BB21CFC28B00D15CDC /* CosmosRating.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CosmosRating.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		292891BE21CFC28B00D15CDC /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		292891C021CFC28B00D15CDC /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		292891C321CFC28B00D15CDC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		292891C521CFC28C00D15CDC /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		292891C821CFC28C00D15CDC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		292891CA21CFC28C00D15CDC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		292891CF21CFC28C00D15CDC /* CosmosRatingTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CosmosRatingTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		292891D321CFC28C00D15CDC /* CosmosRatingTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CosmosRatingTests.swift; sourceTree = "<group>"; };
+		292891D521CFC28C00D15CDC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		292891DA21CFC28C00D15CDC /* CosmosRatingUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CosmosRatingUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		292891DE21CFC28C00D15CDC /* CosmosRatingUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CosmosRatingUITests.swift; sourceTree = "<group>"; };
+		292891E021CFC28C00D15CDC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3EEE14B5E943362B56A4C6AD /* Pods-CosmosRating.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CosmosRating.debug.xcconfig"; path = "Pods/Target Support Files/Pods-CosmosRating/Pods-CosmosRating.debug.xcconfig"; sourceTree = "<group>"; };
+		4DFBBCACBE15A69113F8AD45 /* Pods-CosmosRating.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CosmosRating.release.xcconfig"; path = "Pods/Target Support Files/Pods-CosmosRating/Pods-CosmosRating.release.xcconfig"; sourceTree = "<group>"; };
+		8BFD1483F734DECC697549D1 /* Pods-CosmosRatingTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CosmosRatingTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-CosmosRatingTests/Pods-CosmosRatingTests.release.xcconfig"; sourceTree = "<group>"; };
+		C80C48A596172358E21210F9 /* Pods-CosmosRatingUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CosmosRatingUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-CosmosRatingUITests/Pods-CosmosRatingUITests.release.xcconfig"; sourceTree = "<group>"; };
+		C947529F5D1E1F1AF1C5D99F /* Pods-CosmosRatingTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CosmosRatingTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-CosmosRatingTests/Pods-CosmosRatingTests.debug.xcconfig"; sourceTree = "<group>"; };
+		D0BF0C793E5F338418E847B2 /* Pods_CosmosRatingUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_CosmosRatingUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		E1E9B5BF4BAE340FEB60B28F /* Pods_CosmosRatingTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_CosmosRatingTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		292891B821CFC28B00D15CDC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				34D564CE8635DDCEEF84906A /* Pods_CosmosRating.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		292891CC21CFC28C00D15CDC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1240073993C812BE2807E7AC /* Pods_CosmosRatingTests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		292891D721CFC28C00D15CDC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B4414BD96E5A7DC490221420 /* Pods_CosmosRatingUITests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		292891B221CFC28B00D15CDC = {
+			isa = PBXGroup;
+			children = (
+				292891BD21CFC28B00D15CDC /* CosmosRating */,
+				292891D221CFC28C00D15CDC /* CosmosRatingTests */,
+				292891DD21CFC28C00D15CDC /* CosmosRatingUITests */,
+				292891BC21CFC28B00D15CDC /* Products */,
+				DA0396B51C9C871F05BEA41C /* Pods */,
+				78DEC5B88BF878687440506D /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		292891BC21CFC28B00D15CDC /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				292891BB21CFC28B00D15CDC /* CosmosRating.app */,
+				292891CF21CFC28C00D15CDC /* CosmosRatingTests.xctest */,
+				292891DA21CFC28C00D15CDC /* CosmosRatingUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		292891BD21CFC28B00D15CDC /* CosmosRating */ = {
+			isa = PBXGroup;
+			children = (
+				292891BE21CFC28B00D15CDC /* AppDelegate.swift */,
+				292891C021CFC28B00D15CDC /* ViewController.swift */,
+				292891C221CFC28B00D15CDC /* Main.storyboard */,
+				292891C521CFC28C00D15CDC /* Assets.xcassets */,
+				292891C721CFC28C00D15CDC /* LaunchScreen.storyboard */,
+				292891CA21CFC28C00D15CDC /* Info.plist */,
+			);
+			path = CosmosRating;
+			sourceTree = "<group>";
+		};
+		292891D221CFC28C00D15CDC /* CosmosRatingTests */ = {
+			isa = PBXGroup;
+			children = (
+				292891D321CFC28C00D15CDC /* CosmosRatingTests.swift */,
+				292891D521CFC28C00D15CDC /* Info.plist */,
+			);
+			path = CosmosRatingTests;
+			sourceTree = "<group>";
+		};
+		292891DD21CFC28C00D15CDC /* CosmosRatingUITests */ = {
+			isa = PBXGroup;
+			children = (
+				292891DE21CFC28C00D15CDC /* CosmosRatingUITests.swift */,
+				292891E021CFC28C00D15CDC /* Info.plist */,
+			);
+			path = CosmosRatingUITests;
+			sourceTree = "<group>";
+		};
+		78DEC5B88BF878687440506D /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				1A5878D06AAC4FEBCFBB4E36 /* Pods_CosmosRating.framework */,
+				E1E9B5BF4BAE340FEB60B28F /* Pods_CosmosRatingTests.framework */,
+				D0BF0C793E5F338418E847B2 /* Pods_CosmosRatingUITests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		DA0396B51C9C871F05BEA41C /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				3EEE14B5E943362B56A4C6AD /* Pods-CosmosRating.debug.xcconfig */,
+				4DFBBCACBE15A69113F8AD45 /* Pods-CosmosRating.release.xcconfig */,
+				C947529F5D1E1F1AF1C5D99F /* Pods-CosmosRatingTests.debug.xcconfig */,
+				8BFD1483F734DECC697549D1 /* Pods-CosmosRatingTests.release.xcconfig */,
+				1D9BF59C56EFDECA1929CD48 /* Pods-CosmosRatingUITests.debug.xcconfig */,
+				C80C48A596172358E21210F9 /* Pods-CosmosRatingUITests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		292891BA21CFC28B00D15CDC /* CosmosRating */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 292891E321CFC28C00D15CDC /* Build configuration list for PBXNativeTarget "CosmosRating" */;
+			buildPhases = (
+				8829BF7AB1139568799688C2 /* [CP] Check Pods Manifest.lock */,
+				292891B721CFC28B00D15CDC /* Sources */,
+				292891B821CFC28B00D15CDC /* Frameworks */,
+				292891B921CFC28B00D15CDC /* Resources */,
+				87750F0BB0CB589E715D440B /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = CosmosRating;
+			productName = CosmosRating;
+			productReference = 292891BB21CFC28B00D15CDC /* CosmosRating.app */;
+			productType = "com.apple.product-type.application";
+		};
+		292891CE21CFC28C00D15CDC /* CosmosRatingTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 292891E621CFC28C00D15CDC /* Build configuration list for PBXNativeTarget "CosmosRatingTests" */;
+			buildPhases = (
+				072CD143EBE1EEB0B61D6527 /* [CP] Check Pods Manifest.lock */,
+				292891CB21CFC28C00D15CDC /* Sources */,
+				292891CC21CFC28C00D15CDC /* Frameworks */,
+				292891CD21CFC28C00D15CDC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				292891D121CFC28C00D15CDC /* PBXTargetDependency */,
+			);
+			name = CosmosRatingTests;
+			productName = CosmosRatingTests;
+			productReference = 292891CF21CFC28C00D15CDC /* CosmosRatingTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		292891D921CFC28C00D15CDC /* CosmosRatingUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 292891E921CFC28C00D15CDC /* Build configuration list for PBXNativeTarget "CosmosRatingUITests" */;
+			buildPhases = (
+				481BC9DE926F94A1EC84602E /* [CP] Check Pods Manifest.lock */,
+				292891D621CFC28C00D15CDC /* Sources */,
+				292891D721CFC28C00D15CDC /* Frameworks */,
+				292891D821CFC28C00D15CDC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				292891DC21CFC28C00D15CDC /* PBXTargetDependency */,
+			);
+			name = CosmosRatingUITests;
+			productName = CosmosRatingUITests;
+			productReference = 292891DA21CFC28C00D15CDC /* CosmosRatingUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		292891B321CFC28B00D15CDC /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1000;
+				LastUpgradeCheck = 1000;
+				ORGANIZATIONNAME = "Mohamed Sabri";
+				TargetAttributes = {
+					292891BA21CFC28B00D15CDC = {
+						CreatedOnToolsVersion = 10.0;
+					};
+					292891CE21CFC28C00D15CDC = {
+						CreatedOnToolsVersion = 10.0;
+						TestTargetID = 292891BA21CFC28B00D15CDC;
+					};
+					292891D921CFC28C00D15CDC = {
+						CreatedOnToolsVersion = 10.0;
+						TestTargetID = 292891BA21CFC28B00D15CDC;
+					};
+				};
+			};
+			buildConfigurationList = 292891B621CFC28B00D15CDC /* Build configuration list for PBXProject "CosmosRating" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 292891B221CFC28B00D15CDC;
+			productRefGroup = 292891BC21CFC28B00D15CDC /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				292891BA21CFC28B00D15CDC /* CosmosRating */,
+				292891CE21CFC28C00D15CDC /* CosmosRatingTests */,
+				292891D921CFC28C00D15CDC /* CosmosRatingUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		292891B921CFC28B00D15CDC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				292891C921CFC28C00D15CDC /* LaunchScreen.storyboard in Resources */,
+				292891C621CFC28C00D15CDC /* Assets.xcassets in Resources */,
+				292891C421CFC28B00D15CDC /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		292891CD21CFC28C00D15CDC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		292891D821CFC28C00D15CDC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		072CD143EBE1EEB0B61D6527 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-CosmosRatingTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		481BC9DE926F94A1EC84602E /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-CosmosRatingUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		87750F0BB0CB589E715D440B /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-CosmosRating/Pods-CosmosRating-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/Cosmos/Cosmos.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Cosmos.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-CosmosRating/Pods-CosmosRating-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		8829BF7AB1139568799688C2 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-CosmosRating-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		292891B721CFC28B00D15CDC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				292891C121CFC28B00D15CDC /* ViewController.swift in Sources */,
+				292891BF21CFC28B00D15CDC /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		292891CB21CFC28C00D15CDC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				292891D421CFC28C00D15CDC /* CosmosRatingTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		292891D621CFC28C00D15CDC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				292891DF21CFC28C00D15CDC /* CosmosRatingUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		292891D121CFC28C00D15CDC /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 292891BA21CFC28B00D15CDC /* CosmosRating */;
+			targetProxy = 292891D021CFC28C00D15CDC /* PBXContainerItemProxy */;
+		};
+		292891DC21CFC28C00D15CDC /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 292891BA21CFC28B00D15CDC /* CosmosRating */;
+			targetProxy = 292891DB21CFC28C00D15CDC /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		292891C221CFC28B00D15CDC /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				292891C321CFC28B00D15CDC /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		292891C721CFC28C00D15CDC /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				292891C821CFC28C00D15CDC /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		292891E121CFC28C00D15CDC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		292891E221CFC28C00D15CDC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		292891E421CFC28C00D15CDC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3EEE14B5E943362B56A4C6AD /* Pods-CosmosRating.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = CosmosRating/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = m.sabri.CosmosRating;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		292891E521CFC28C00D15CDC /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4DFBBCACBE15A69113F8AD45 /* Pods-CosmosRating.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = CosmosRating/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = m.sabri.CosmosRating;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		292891E721CFC28C00D15CDC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C947529F5D1E1F1AF1C5D99F /* Pods-CosmosRatingTests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = CosmosRatingTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = m.sabri.CosmosRatingTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/CosmosRating.app/CosmosRating";
+			};
+			name = Debug;
+		};
+		292891E821CFC28C00D15CDC /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8BFD1483F734DECC697549D1 /* Pods-CosmosRatingTests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = CosmosRatingTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = m.sabri.CosmosRatingTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/CosmosRating.app/CosmosRating";
+			};
+			name = Release;
+		};
+		292891EA21CFC28C00D15CDC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1D9BF59C56EFDECA1929CD48 /* Pods-CosmosRatingUITests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = CosmosRatingUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = m.sabri.CosmosRatingUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = CosmosRating;
+			};
+			name = Debug;
+		};
+		292891EB21CFC28C00D15CDC /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C80C48A596172358E21210F9 /* Pods-CosmosRatingUITests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = CosmosRatingUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = m.sabri.CosmosRatingUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = CosmosRating;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		292891B621CFC28B00D15CDC /* Build configuration list for PBXProject "CosmosRating" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				292891E121CFC28C00D15CDC /* Debug */,
+				292891E221CFC28C00D15CDC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		292891E321CFC28C00D15CDC /* Build configuration list for PBXNativeTarget "CosmosRating" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				292891E421CFC28C00D15CDC /* Debug */,
+				292891E521CFC28C00D15CDC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		292891E621CFC28C00D15CDC /* Build configuration list for PBXNativeTarget "CosmosRatingTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				292891E721CFC28C00D15CDC /* Debug */,
+				292891E821CFC28C00D15CDC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		292891E921CFC28C00D15CDC /* Build configuration list for PBXNativeTarget "CosmosRatingUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				292891EA21CFC28C00D15CDC /* Debug */,
+				292891EB21CFC28C00D15CDC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 292891B321CFC28B00D15CDC /* Project object */;
+}
